@@ -6,6 +6,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Scope("prototype")
+//@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+//@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class Person {
 
   //PROPERTIES
